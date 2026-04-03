@@ -119,7 +119,7 @@ export default function Hero() {
 
           {/* Right — Visual card */}
           <div className="hidden lg:block relative" aria-hidden="true">
-            <div className="relative">
+            <div className="relative pt-8 pb-10 px-8">
               {/* Main card */}
               <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-8 shadow-2xl">
                 <div className="flex items-center gap-3 mb-6">
@@ -157,14 +157,14 @@ export default function Hero() {
               </div>
 
               {/* Floating stats */}
-              <div className="absolute -top-6 -right-6 bg-teal-dark rounded-2xl px-5 py-4 shadow-teal-lg animate-float">
+              <div className="absolute top-0 -right-4 bg-teal-dark rounded-2xl px-5 py-4 shadow-teal-lg animate-float">
                 <p className="text-white font-playfair font-bold text-2xl">100%</p>
                 <p className="text-teal-light text-xs font-dm font-medium">
                   Satisfaction Guarantee
                 </p>
               </div>
               <div
-                className="absolute -bottom-6 -left-6 bg-navy/90 backdrop-blur-md border border-white/10 rounded-2xl px-5 py-4 shadow-soft animate-float"
+                className="absolute bottom-0 -left-4 bg-navy/90 backdrop-blur-md border border-white/10 rounded-2xl px-5 py-4 shadow-soft animate-float"
                 style={{ animationDelay: '2s' }}
               >
                 <p className="text-white font-playfair font-bold text-2xl">NoVA</p>
